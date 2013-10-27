@@ -31,49 +31,6 @@ namespace MenuLibrary
 	/// </summary>
 	public class MenuGenerator
 	{
-		#region Nested Enums, Private Classes, etc used by Menu Generator *************************
-
-		/// <summary>
-		///	Indexes representing special menu items in the list of menu items.
-		/// </summary>
-		private static class MenuItemNumber
-		{
-			public const int Invalid = -1;
-			public const int ExitApp = 0;
-			public const int ClearScreen = 1;
-			public const int ExitSubMenu = 2;
-		}
-
-		/// <summary>
-		/// Arguments passed into methods used to display and execute a menu.
-		/// </summary>
-		/// <remarks>Defined as class not struct so that it will be passed into methods by reference.  
-		/// This allows the name of the main menu to be discovered in a child method and be passed 
-		/// back to the calling method in the child method's menu argument.</remarks>
-		private class MenuArguments
-		{
-			public Assembly AssemblyContainingMenuClasses;
-			public string MenuNameToDisplay;
-			public bool IsMainMenu;
-			public bool ReturnSubMenuList;
-			public bool HasSubMenu = false;
-
-			public MenuArguments(Assembly assemblyContainingMenuClasses, string menuNameToDisplay,
-				bool isMainMenu)
-				: this(assemblyContainingMenuClasses, menuNameToDisplay, isMainMenu, false) { }
-
-			public MenuArguments(Assembly assemblyContainingMenuClasses, string menuNameToDisplay,
-				bool isMainMenu, bool returnSubMenuList)
-			{
-				AssemblyContainingMenuClasses = assemblyContainingMenuClasses;
-				MenuNameToDisplay = menuNameToDisplay;
-				ReturnSubMenuList = returnSubMenuList;
-				IsMainMenu = isMainMenu;
-			}
-		}
-
-		#endregion
-
 		#region Class data members ****************************************************************
 
 		// To pause menu generator while waiting for results from asynchronous tests.
