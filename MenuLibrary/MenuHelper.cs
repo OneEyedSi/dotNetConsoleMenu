@@ -88,8 +88,18 @@ namespace MenuLibrary
 		public static void ShowNumberedText(int number, int indentLevel, string text,
 			bool wrapText, params object[] args)
 		{
+			ShowHeadedText(number.ToString(), indentLevel, text, wrapText, true, args);
+		}
 
-			text = string.Format("{0}) {1}", number, text);
+		/// <summary>
+		/// Displays the specified text as a headed paragraph, of the form "n) text", where n 
+		/// is the header text.
+		/// </summary>
+		public static void ShowHeadedText(string headerText, int indentLevel, string text,
+			bool wrapText, params object[] args)
+		{
+
+			text = string.Format("{0}) {1}", headerText, text);
 			ShowIndentedText(indentLevel, text, wrapText, true, args);
 		}
 

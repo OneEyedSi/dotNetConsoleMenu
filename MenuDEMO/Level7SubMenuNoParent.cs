@@ -9,7 +9,10 @@ namespace MenuDEMO
 	/// Contains methods for the level 7 sub-menu which should never be displayed as there is no 
 	/// parent menu named "Level 6 Menu".
 	/// </summary>
-	[MenuClass("Level 7 Menu", ParentMenuName = "Level 6 Menu")]
+	/// <remarks>When parsing the menus the MenuLibrary will throw an ArgumentException if a 
+	/// parent menu name does not exist as a menu.  Hence the MenuClassAttribute is commented out.
+	/// To test the check for parent menu uncomment the MenuClassAttribute.</remarks>
+	//[MenuClass("Level 7 Menu", ParentMenuName = "Level 6 Menu")]
 	public class Level7SubMenuNoParent
 	{
 		#region First Demo Test *******************************************************************

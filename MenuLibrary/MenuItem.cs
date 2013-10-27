@@ -5,8 +5,8 @@ using System.Text;
 namespace MenuLibrary
 {
 	/// <summary>
-	/// Class that represents an item to display in a menu or sub-menu, along with the method the 
-	/// item will execute if selected.
+	/// An item to display in a menu or sub-menu, along with the method the item will execute if 
+	/// selected.
 	/// </summary>
 	/// <remarks>Implements IComparable<MenuItem> to allow sorting of lists of MenuItems.</remarks>
 	public class MenuItem : IComparable<MenuItem>
@@ -16,15 +16,23 @@ namespace MenuLibrary
 		private bool _isAsync;
 		private string _subMenuFullName;
 		private int _displayOrder;
+		private string _key;
 
 		public MenuItem(string displayText, MenuMethod method, bool isAsync, string subMenuFullName, 
-			int displayOrder)
+			int displayOrder) : this (displayText, method, isAsync, subMenuFullName, displayOrder, 
+										null)
+		{
+		}
+
+		public MenuItem(string displayText, MenuMethod method, bool isAsync, string subMenuFullName, 
+			int displayOrder, string hotKey)
 		{
 			_displayText = displayText;
 			_method = method;
 			_isAsync = isAsync;
 			_subMenuFullName = subMenuFullName;
 			_displayOrder = displayOrder;
+			_key = hotKey;
 		}
 
 		public string DisplayText
@@ -64,6 +72,14 @@ namespace MenuLibrary
 			set { _displayOrder = value; }
 		}
 
+		/// <summary>
+		/// The key the user will enter to execute this menu item.
+		/// </summary>
+		public string Key
+		{
+			get { return _key; }
+			set { _key = value; }
+		}
 		public void InvokeMethod()
 		{
 			Method();
