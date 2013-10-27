@@ -233,7 +233,7 @@ namespace MenuLibrary
 					item.Key, item.DisplayText);
 			}
 
-			if (menu.ParentMenu != null)
+			if (menu.ParentMenuName != null)
 			{
 				MenuHelper.ShowIndentedText(1, "{0}: Go up to parent menu", wrapText, includeNewLine,
 					MenuItemKey.GoUpToParentMenu);
@@ -247,7 +247,6 @@ namespace MenuLibrary
 			{
 				MenuHelper.ShowHeadedText(subMenu.Key, 1, subMenu.MenuName, wrapText);
 			}
-			Console.WriteLine();
 
 			if (menu.MenuItems == null || menu.MenuItems.Count == 0)
 			{

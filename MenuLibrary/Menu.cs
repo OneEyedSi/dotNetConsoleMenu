@@ -27,7 +27,6 @@ namespace MenuLibrary
 
 		// Items that will appear in the menu.
 		private List<MenuItem> _commonMenuItems;
-		private Menu _parentMenu = null;
 		private List<Menu> _subMenus = new List<Menu>();
 		private List<MenuItem> _menuItems = null;	// Lazy load when required.
 
@@ -134,15 +133,6 @@ namespace MenuLibrary
 		public List<Menu> SubMenus
 		{
 			get { return _subMenus; }
-		}
-
-		/// <summary>
-		/// The parent menu of this menu.
-		/// </summary>
-		public Menu ParentMenu
-		{
-			get { return _parentMenu; }
-			set { _parentMenu = value; }
 		}
 
 		/// <summary>
@@ -262,7 +252,6 @@ namespace MenuLibrary
 					throw new ArgumentException(errorMessage);
 				}
 
-				menu.ParentMenu = parentMenu;
 				parentMenu.SubMenus.Add(menu);
 			}
 
