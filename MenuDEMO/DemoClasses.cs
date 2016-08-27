@@ -1,10 +1,8 @@
 // Classes used to create objects to display.
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace ObjectViewerDEMO
+namespace MenuDemo
 {
 	public class DemoClass1
 	{

@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using MenuLibrary;
+using ConsoleMenu;
 
-namespace MenuDEMO
+namespace MenuDemo
 {
 	/// <summary>
 	/// Contains the methods that will be used to generate the level 3 sub-menu.

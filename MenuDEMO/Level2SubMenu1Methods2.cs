@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using MenuLibrary;
+using ConsoleMenu;
 
-namespace MenuDEMO
+namespace MenuDemo
 {
 
 	/// <summary>

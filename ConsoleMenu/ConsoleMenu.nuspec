@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/AnotherSadGit/dotNetConsoleMenu/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/AnotherSadGit/dotNetConsoleMenu</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2006-2013, 2016 Simon Elms</copyright>
+    <tags>Console Menu</tags>
+  </metadata>
+</package>

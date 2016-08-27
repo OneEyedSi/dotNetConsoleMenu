@@ -11,13 +11,10 @@
 // $History: $
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Reflection;
-using System.Text;
 using System.Threading;
 
-namespace MenuLibrary
+namespace ConsoleMenu
 {
 	/// <summary>
 	/// Delegate used to invoke a method from a menu.  All methods that appear in menus must 

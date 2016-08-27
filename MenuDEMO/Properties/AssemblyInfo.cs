@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MenuDEMO")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MenuDemo")]
+[assembly: AssemblyDescription("A project demonstrating the use of the ConsoleMenu library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hewlett-Packard Company")]
-[assembly: AssemblyProduct("MenuDEMO")]
-[assembly: AssemblyCopyright("Copyright © Hewlett-Packard Company 2012")]
+[assembly: AssemblyCompany("Simon Elms")]
+[assembly: AssemblyProduct("MenuDemo")]
+[assembly: AssemblyCopyright("Copyright © 2013, 2016 Simon Elms")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1,4 +1,4 @@
-namespace MenuDEMO
+namespace MenuDemo
 {
 	partial class Form2
 	{

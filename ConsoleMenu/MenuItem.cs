@@ -1,8 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MenuLibrary
+namespace ConsoleMenu
 {
 	/// <summary>
 	/// An item to display in a menu or sub-menu, along with the method the item will execute if 

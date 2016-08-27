@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 
-namespace MenuLibrary
+namespace ConsoleMenu
 {
 	/// <summary>
 	/// Represents a menu that will be displayed.

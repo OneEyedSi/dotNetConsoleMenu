@@ -44,12 +44,10 @@
 // $History: $
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 using System;
-using System.Collections.Generic;
-using System.Data;
-using MenuLibrary;
-using Utilities.DisplayHelper;
+using ConsoleMenu;
+using DisplayHelper;
 
-namespace MenuDEMO
+namespace MenuDemo
 {
 	/// <summary>
 	/// Contains the methods that will be used to generate the main menu.
