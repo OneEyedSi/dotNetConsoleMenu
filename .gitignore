@@ -1,23 +1,137 @@
-Example:
-#ignore thumbnails created by windows
-Thumbs.db
-#Ignore files build by Visual Studio
+# Visual Studio user-specific
 *.user
-*.aps
-*.pch
-*.vspscc
+*.suo
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
 *_i.c
 *_p.c
-*.ncb
-*.suo
-*.bak
-*.cache
+*.dbmdl
 *.ilk
-*.log
-[Bb]in
-[Dd]ebug*/
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
 *.sbr
-obj/
-[Rr]elease*/
-_ReSharper*/
-*.stackdump
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper
+_ReSharper*
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Installshield output folder 
+[Ee]xpress
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish
+
+# Publish Web Output
+*.Publish.xml
+
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Windows Azure Build Output
+csx
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Upgrading from earlier version of Visual Studio
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+
+# Unit testing
+TestResults/
+[Tt]est[Rr]esult*
+
+# Setup project (prior to VS 2012)
+setup.exe
+
+# SQL Server Reporting Services
+*.rptproj.user
+
+# SQL Server Management Studio solutions
+*.sqlsuo
+*.ssms_suo
+
+# LightSwitch
+Microsoft.LightSwitch.*.dll
+
+# Silverlight
+Generated_Code
+
+# SqlLite
+*.db
+
+# Visual SourceSafe
+*.scc
+
+# Access
+*.laccdb
+
+# Git
+us.stackdump
+
+# Style Cop
+[Ss]tyle[Cc]op.*
+
+# Miscellaneous
+sql
+ClientBin
+~$*
+*.bak
+*.[Cc]ache
+*.pidb
+*.resources
+*.userprefs
+
+# Project-specific
