@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>GoldConsoleMenu</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>GoldConsoleMenu</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>https://github.com/AnotherSadGit/dotNetConsoleMenu/blob/master/LICENSE.txt</licenseUrl>
