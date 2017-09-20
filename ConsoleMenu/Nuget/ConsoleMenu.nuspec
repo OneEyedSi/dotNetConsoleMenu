@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Gold.ConsoleMenu</id>
+    <version>$version$</version>
+    <title>Gold Console Menu</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/AnotherSadGit/dotNetConsoleMenu/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/AnotherSadGit/dotNetConsoleMenu</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A menu generator for console applications.</summary>
+    <description>$description$</description>
+    <releaseNotes>Namespaces updated.</releaseNotes>
+    <copyright>Copyright 2006-2013, 2016 Simon Elms</copyright>
+    <tags>Console Menu</tags>
+  </metadata>
+</package>
