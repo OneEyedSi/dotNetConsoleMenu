@@ -4,9 +4,9 @@ dotNetConsoleMenu is a menu generator for .NET console applications, which uses 
 The ConsoleMenu library targets **.NET 2.0** to make it as broadly usable as possible.
 
 ## NuGet Package
-If required, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) for Visual Studio. Then, in Visual Studio, open the solution to add the package to and use the Package Manager Console to install [GoldConsoleMenu](https://www.nuget.org/packages/GoldConsoleMenu/):
+If required, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) for Visual Studio. Then, in Visual Studio, open the solution to add the package to and use the Package Manager Console to install [Gold.ConsoleMenu](https://www.nuget.org/packages/Gold.ConsoleMenu/):
 
-    PM> Install-Package GoldConsoleMenu
+    PM> Install-Package Gold.ConsoleMenu
 
 ## A Sample Menu
 
@@ -81,10 +81,28 @@ public class RootMenu
 	}
 }
 ```
-
 In this case the text of the menu item will be "This is the first menu item".
 
 Only methods with a specific signature may become menu items.  The methods must be **public static void** with **no arguments**.  Any method name is acceptable for a menu item method.
+
+### Running the Menu Generator
+In the Main method of the console application, call MenuGenerator.Run():
+
+```csharp
+static void Main(string[] args)
+{
+	MenuGenerator.Run();
+}
+```
+
+When the application is run the top-level menu (the menu without a ParentMenuName specified) will be displayed.
+
+## Namespace
+The  MenuGenerator, the MenuClassAttribute and the MenuMethodAttribute classes are all in the **Gold.ConsoleMenu** namespace.  Add the following using statement to the top of any menu classes, and to the class containing the Main method:
+
+```csharp
+using Gold.ConsoleMenu;
+```
 
 ## Display Order
 By default, sub-menus and method menu items are displayed in alphabetical order: Sub-menus are ordered by menu name and method menu items are ordered by their display text.
