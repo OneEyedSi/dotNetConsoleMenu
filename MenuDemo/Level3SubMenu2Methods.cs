@@ -1,5 +1,5 @@
 using System;
-using ConsoleMenu;
+using Gold.ConsoleMenu;
 
 namespace MenuDemo
 {

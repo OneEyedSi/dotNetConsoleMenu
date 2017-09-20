@@ -1,6 +1,6 @@
 using System;
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	/// <summary>
 	/// An item to display in a menu or sub-menu, along with the method the item will execute if 

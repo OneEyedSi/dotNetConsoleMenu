@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	/// <summary>
 	/// Represents a menu that will be displayed.

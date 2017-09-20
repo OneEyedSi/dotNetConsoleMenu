@@ -1,20 +1,8 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Project      -   
-// General      -   
-//
-// File Name    -   MenuGenerator.cs
-// Description  -   Generic code that generates a menu and executes the code corresponding to the 
-//					user's selection.
-//
-// Notes        -   Displays a menu that allows the user to determine which method to run.
-//
-// $History: $
-///////////////////////////////////////////////////////////////////////////////////////////////////
 using System;
 using System.Reflection;
 using System.Threading;
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	/// <summary>
 	/// Delegate used to invoke a method from a menu.  All methods that appear in menus must 
@@ -23,8 +11,7 @@ namespace ConsoleMenu
 	public delegate void MenuMethod();	
 
 	/// <summary>
-	/// Menu generator that uses reflection to determine which methods are to be included in the 
-	/// menu.
+	/// Menu generator that builds and displays a hierarchy of menus.
 	/// </summary>
 	public class MenuGenerator
 	{

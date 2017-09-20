@@ -2,15 +2,13 @@
 // Project      -   
 // General      -   
 //
-// File Name    -   MenuAttributes.cs
+// File Name    -   MenuConstants.cs
 // Description  -   Enums, string literals, etc, that may be used in this or other projects.
 //
-// Notes        -   
-//
-// $History: $
+// Notes        - 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	/// <summary>
 	/// Miscellaneous literals.

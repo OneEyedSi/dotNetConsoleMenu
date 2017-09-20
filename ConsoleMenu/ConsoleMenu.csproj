@@ -8,8 +8,8 @@
     <ProjectGuid>{2015F950-9CA7-4FDE-898D-EB4F102DC510}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleMenu</RootNamespace>
-    <AssemblyName>ConsoleMenu</AssemblyName>
+    <RootNamespace>Gold.ConsoleMenu</RootNamespace>
+    <AssemblyName>Gold.ConsoleMenu</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>

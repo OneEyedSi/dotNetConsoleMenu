@@ -6,15 +6,12 @@
 // Description  -   Custom attributes used to identify methods that will be listed in the menu and 
 //					the classes that contain them.
 //
-// Notes        -   Similar to Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute and 
-//					TestMethodAttribute.  However TestMethodAttribute does not include a 
-//					description of the method and it is not possible to inherit from it.
-//
-// $History: $
+// Notes        -   
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
 using System;
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	#region MenuClassAttribute ********************************************************************
 

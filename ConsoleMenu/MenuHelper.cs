@@ -1,18 +1,7 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Project      -   
-// General      -   
-//
-// File Name    -   MenuHelper.cs
-// Description  -   Utility methods useful when running methods from a menu.
-//
-// Notes        -   
-//
-// $History: $
-///////////////////////////////////////////////////////////////////////////////////////////////////
 using System;
 using System.Text;
 
-namespace ConsoleMenu
+namespace Gold.ConsoleMenu
 {
 	/// <summary>
 	/// Utility methods useful when running methods from a menu.
