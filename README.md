@@ -1,12 +1,32 @@
 # dotNetConsoleMenu
 dotNetConsoleMenu is a menu generator for .NET console applications, which uses special attributes to flag classes and methods called by the menu.
 
-The ConsoleMenu library targets **.NET 2.0** to make it as broadly usable as possible.
+## Supported Versions of .NET
+The Gold.ConsoleMenu library is built against **.NET Standard 2.0** so that it can be used with both the .NET Framework, version 4.6.1 and above, and also with .NET Core.
+
+To use the Gold.ConsoleMenu library with earlier versions of the .NET Framework install the Gold.ConsoleMenu **2.1.0** NuGet package.  That is identical to the v3.1.1 NuGet package but was built against .NET Framework 2.0, so can be used with .NET Framework 2.0 to 4.8.
 
 ## NuGet Package
-If required, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) for Visual Studio. Then, in Visual Studio, open the solution to add the package to and use the Package Manager Console to install [Gold.ConsoleMenu](https://www.nuget.org/packages/Gold.ConsoleMenu/):
+The NuGet package can be installed via either the NuGet Package Manager or via the .NET CLI.
+
+### Installing via the NuGet Package Manager
+If required, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) for Visual Studio. 
+
+Then, in Visual Studio, open the solution to add the package to and use the Package Manager Console to install [Gold.ConsoleMenu](https://www.nuget.org/packages/Gold.ConsoleMenu/):
 
     PM> Install-Package Gold.ConsoleMenu
+
+### Installing via the .NET CLI
+In Visual Studio open the solution to add the package to then use a Developer Command Prompt window to install the NuGet package:
+
+    > dotnet add package Gold.ConsoleMenu
+
+### Installing Version 2.1.0, for Older Versions of .NET Framework
+This must be done via the NuGet Package Manager.
+
+In Visual Studio open the solution to add the package to then use the Package Manager Console to install v2.1.0 of the NuGet package:
+
+    PM> Install-Package Gold.ConsoleMenu -Version 2.1.0
 
 ## A Sample Menu
 
